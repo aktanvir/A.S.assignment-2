@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #110303;
+    overflow: hidden;
+  
+  }
+  
+  nav ul li {
+    float: left;
+    
+  }
+  
+  nav ul li a {
+    display: block;
+    color:  #39e494;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li input[type="text"] {
+    padding: 8px;
+    padding-left: 30px;
+    margin: 8px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #3a3131;
+  }
+  
+  section {
+    padding: 30px;
+  }
+  
+  #special-dishes {
+    background-color: #39e494;
+    
+  }
+  .fried-chicken{
+    height: 300px;
+    width: 300px;
+  }
+  
+  .special-dish {
+    text-align: center;
+  }
+  
+  #popular-dishes {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  #39e494;
+  }
+  .pdish-text{
+    text-align: center;
+  }
+  
+  .dish {
+  
+    text-align: center;
+    width: 30%;
+    margin: 1.66%;
+    background-color: #b8b0b0;
+    padding: 10px;
+  }
+  .dish img{
+    height: 200px;
+    width: 350px;
+  }
+  
+  .rating {
+    font-style: normal;
+  }
+  
+  button {
+    background-color: #0f1613;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #services{
+    display: flex;
+    text-align: center;
+    width: 95%;
+    margin: 1.66%;
+    background-color:  #39e494;
+    padding: 10px;
+  }
+  .service-2{
+    padding-left: 400px;
+  }
+  .service-3{
+    padding-left: 490px;
+    padding-right: 10px;
+  }
+
+  footer {
+    background-color: #39e494;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .social-platforms img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
+  
